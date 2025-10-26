@@ -1,0 +1,12 @@
+Model Context Protocol 
+- Standardized way for an agents to communicate with a set of tools. 
+- Allows agent to 
+    - utilize an additional Context
+    - add an API 
+    - connect to a database 
+    - save a note
+
+MCP servers can:
+- expose data through resources - @mcp.resource 
+- provides functionality through tools - @mcp.tool
+- define interaction pattern using Prompts - @mcp.Prompt
